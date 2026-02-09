@@ -13,9 +13,11 @@ const Navbar = () => {
   return (
     <div>
       <div className=' flex justify-between items-center py-6 font-medium'>
+        <Link to='/'>
         <div>
           <h1 className=' text-3xl font-semi-bold text-gray-400 '>FOR <span className=' text-3xl font-bold text-teal-300 underline underline-offset-4 under  decoration-1'>EVER</span></h1>
         </div>
+        </Link>
         <ul className=' hidden sm:flex gap-3 text-sm text-gray-700'>
           <NavLink to='/' className='flex flex-col items-center gap-1'>
             <p>HOME</p>
